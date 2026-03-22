@@ -1,7 +1,7 @@
 export const input =
   "w-full border border-gray-300 rounded px-3 py-2 text-sm bg-white text-gray-900 focus:outline-none focus:ring-1 focus:ring-green-600 placeholder:text-gray-400";
 
-export const label = "block text-sm font-medium text-gray-700 mb-1";
+export const label = "block text-sm font-medium text-green-600 mb-1";
 
 export const botonPrimario =
   "bg-green-700 text-white px-4 py-2 rounded text-sm hover:bg-green-800 transition-colors disabled:opacity-50";
