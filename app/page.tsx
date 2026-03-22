@@ -20,8 +20,7 @@ export default async function PaginaInicio() {
           <p className="text-3xl font-semibold">{totalReservas}</p>
         </div>
       </div>
-      <Link href="/servicios/nuevo" className="bg-black text-white px-4 py-2 rounded
-text-sm">
+      <Link href="/servicios/nuevo" className="bg-green-700 text-white px-4 py-2 rounded text-sm hover:bg-green-800 transition-colors">
         Agregar servicio
       </Link>
     </div>
