@@ -15,7 +15,7 @@ export default async function PaginaServicios() {
         <h1 className="text-xl font-semibold">Servicios</h1>
         <Link
           href="/servicios/nuevo"
-          className="bg-black text-white px-4 py-2 rounded text-sm"
+          className="bg-green-700 text-white px-4 py-2 rounded text-sm hover:bg-green-800 transition-colors"
         >
           Agregar servicio
         </Link>
@@ -27,8 +27,8 @@ export default async function PaginaServicios() {
             className={`${tarjeta} flex items-center justify-between`}
           >
             <div>
-              <p className="font-medium text-sm">{servicio.nombre}</p>
-              <p className="text-xs text-gray-400">
+              <p className="font-medium text-sm text-green-700">{servicio.nombre}</p>
+              <p className="text-xs text-black">
                 {servicio.duracion} min — {servicio._count.reservas} reserva(s)
               </p>
             </div>
