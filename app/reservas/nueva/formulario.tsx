@@ -59,6 +59,11 @@ export function FormularioReserva({ servicios }: { servicios: Servicio[] }) {
           </p>
         )}
       </div>
+      {estado.mensaje && (
+        <p className="text-sm text-red-500 bg-red-50 border border-red-200 rounded px-3 py-2" >
+          {estado.mensaje}
+        </p>
+      )}
       <BotonEnviar />
     </form>
   );
